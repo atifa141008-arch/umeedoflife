@@ -1,0 +1,16 @@
+/* Umeed central workspace theme normalization. Scoped to the management route tree. */
+.management-theme-note { color: #18412F; }
+[class~="bg-[#f8faf8]"], [class~="bg-[#f8faf7]"], [class~="bg-[#fbfcfb]"] { background-color: #F8FAF7 !important; }
+[class~="bg-[#173f32]"], [class~="bg-[#173F32]"] { background-color: #18412F !important; }
+[class~="hover:bg-[#235746]"]:hover, [class~="bg-[#235746]"] { background-color: #123526 !important; }
+[class~="text-[#173f32]"], [class~="text-[#173F32]"], [class~="text-[#235746]"] { color: #18412F !important; }
+[class~="text-[#d6a65d]"], [class~="text-[#D6A65D]"] { color: #D9A55B !important; }
+[class~="text-[#b7792b]"] { color: #B8741A !important; }
+[class~="text-[#687870]"], [class~="text-[#687870]"] { color: #6B7280 !important; }
+[class~="border-[#e3ebe6]"], [class~="border-[#dfe7e2]"], [class~="border-[#e3eae6]"] { border-color: #E3EAE6 !important; }
+[class~="bg-[#edf5ef]"] { background-color: #EAF1EC !important; }
+[class~="rounded-3xl"] { border-radius: 28px !important; }
+[class~="shadow-sm"] { box-shadow: 0 1px 2px rgba(24,65,47,.04) !important; }
+[class~="bg-[#fff8f5]"] { background-color: #F8FAF7 !important; }
+[class~="text-[#44251e]"] { color: #18412F !important; }
+[class~="text-[#c54c36]"] { color: #B8741A !important; }

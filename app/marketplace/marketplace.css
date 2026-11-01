@@ -1,0 +1,70 @@
+/* =========================================
+   UMEED MARKETPLACE — SEPARATE THEME
+   Main Umeed Of Life theme remains untouched
+========================================= */
+
+.marketplace-root {
+  --marketplace-peach: #fff5f0;
+  --marketplace-peach-dark: #fde7df;
+  --marketplace-red: #e96855;
+  --marketplace-red-hover: #d95243;
+  --marketplace-text: #262b36;
+  --marketplace-muted: #8e817c;
+  --marketplace-border: #f0e2dc;
+  --marketplace-white: #ffffff;
+
+  min-height: 100vh;
+  background: #fffaf8;
+  color: var(--marketplace-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.marketplace-root *,
+.marketplace-root *::before,
+.marketplace-root *::after {
+  box-sizing: border-box;
+}
+
+.marketplace-root button,
+.marketplace-root input,
+.marketplace-root select,
+.marketplace-root textarea {
+  font: inherit;
+}
+
+.marketplace-root button {
+  cursor: pointer;
+}
+
+.marketplace-root a {
+  text-decoration: none;
+}
+
+.marketplace-root ::selection {
+  background: #fbd8ce;
+  color: #7e3027;
+}
+
+/* Smooth scrolling only inside the Marketplace */
+.marketplace-root {
+  scroll-behavior: smooth;
+}
+
+/* Scrollbars */
+.marketplace-root ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.marketplace-root ::-webkit-scrollbar-track {
+  background: #fff7f3;
+}
+
+.marketplace-root ::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #efc8bb;
+}
+
+.marketplace-root ::-webkit-scrollbar-thumb:hover {
+  background: #e7a28f;
+}

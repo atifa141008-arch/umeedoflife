@@ -1,0 +1,1 @@
+﻿export default function Page() { return (<main className='min-h-screen bg-[#fff8f5] px-6 py-20 text-[#44251e]'><div className='mx-auto max-w-5xl'><p className='text-sm font-bold text-[#c54c36]'>Umeed of Life</p><h1 className='mt-4 text-4xl font-black'>News Details</h1><p className='mt-4 text-gray-600'>This page is under development.</p></div></main>); }
